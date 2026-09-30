@@ -9,7 +9,7 @@ An English learning portal for Grade 3 and Grade 4 girls at Al Andalus Private S
 | 3 | [English Primary 3](https://mharb11223344.github.io/english3-1termapp/) and [Connect Plus 3](https://mharb11223344.github.io/connectplus3-term1app/) |
 | 4 | [English Primary 4](https://mharb11223344.github.io/connectplus4-term1app/) and [Connect Plus 4](https://mharb11223344.github.io/Plus4app-term1/) |
 
-The portal opens each site in its learning player. Because all four sites use the same GitHub Pages origin, the player reads their existing local progress keys and synchronizes snapshots to the `app_progress` table in Supabase. **Students must open lessons through the portal for cloud saving.** Direct visits to the four sites continue using local device storage. The portal also offers an explicit import of prior progress from the same device when the student's account has no cloud record for that site.
+The portal opens each site in its learning player. Because all four sites use the same GitHub Pages origin, the player reads their existing local progress keys and synchronizes snapshots to the `app_progress` table in Supabase. **Students open lessons through the portal for cloud saving.** Direct visits to each site's home page now route to the portal; inside the portal the site stays embedded and synchronizes progress. The portal also offers an explicit import of prior progress from the same device when the student's account has no cloud record for that site.
 
 ## Source and deployment
 
